@@ -102,7 +102,7 @@ const Main: React.FC = () => {
             </Card>
           </GridListTile>
         ))}
-        {_.range((now.day() + now.daysInMonth() - 1) % 7).map(index => (
+        {_.range(7 - ((now.day() + now.daysInMonth()) % 7)).map(index => (
           <GridListTile id={'headBlankTile-' + index}>
             <Card className={classes.bodyCard}>
               <CardContent></CardContent>
