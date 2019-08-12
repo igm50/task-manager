@@ -8,6 +8,7 @@
     "@types/node": "12.7.1",
     "@types/react": "16.8.25",
     "@types/react-dom": "16.8.5",
+    "lodash": "^4.17.15",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
@@ -40,12 +41,14 @@
     ]
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^5.1.10",
+    "@storybook/addon-info": "^5.1.10",
+    "@storybook/addon-links": "^5.1.10",
+    "@storybook/react": "^5.1.10",
+    "@types/storybook__react": "^4.0.2",
     "eslint-plugin-prettier": "^3.1.0",
     "husky": "^3.0.2",
     "prettier": "^1.18.2",
-    "storybook": "^1.0.0",
-    "@storybook/react": "^5.1.10",
-    "@storybook/addon-actions": "^5.1.10",
-    "@storybook/addon-links": "^5.1.10"
+    "storybook": "^1.0.0"
   }
 }
