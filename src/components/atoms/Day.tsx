@@ -1,4 +1,5 @@
 import React from 'react'
+import _ from 'lodash'
 
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
@@ -11,7 +12,11 @@ interface Props {
   classes: Record<'bodyCard', string>
   month: number
   day: number
-  handleTaskClick: () => void
+  tasks: Array<{
+    id: number
+    title: string
+  }>
+  handleTaskClick: (taskId: number) => void
 }
 
 const Day: React.FC<Props> = props => {
@@ -20,9 +25,13 @@ const Day: React.FC<Props> = props => {
       <CardContent>
         <Typography>{props.month + '月' + props.day + '日'}</Typography>
         <List disablePadding={true}>
-          <ListItem>
-            <ListItemText onClick={props.handleTaskClick}>sample</ListItemText>
-          </ListItem>
+          {_.map(props.tasks, task => (
+            <ListItem>
+              <ListItemText onClick={() => props.handleTaskClick(task.id)}>
+                {task.title}
+              </ListItemText>
+            </ListItem>
+          ))}
         </List>
       </CardContent>
     </Card>

@@ -51,18 +51,29 @@ const TaskDialog: React.FC<DialogProps> = props => {
 
 interface Props {
   now: dayjs.Dayjs
+  tasksList: Array<{
+    day: number
+    tasks: Array<{
+      id: number
+      title: string
+    }>
+  }>
 }
 
 const Main: React.FC<Props> = props => {
   const classes = useStyles()
   const [dayOpen, setDayOpen] = useState(false)
+  const [day, setDay] = useState(1)
   const [taskOpen, setTaskOpen] = useState(false)
+  const [taskId, setTaskId] = useState(1)
 
-  const handleDayClick = () => {
+  const handleDayClick = (day: number) => {
     setDayOpen(true)
+    setDay(day)
   }
-  const handleTaskClick = () => {
+  const handleTaskClick = (day: number, taskId: number) => {
     setTaskOpen(true)
+    setTaskId(taskId)
   }
 
   return (
@@ -70,6 +81,7 @@ const Main: React.FC<Props> = props => {
       <Calendar
         classes={classes}
         now={props.now}
+        tasksList={props.tasksList}
         handleDayClick={handleDayClick}
         handleTaskClick={handleTaskClick}
       ></Calendar>
