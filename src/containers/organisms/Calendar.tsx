@@ -9,8 +9,15 @@ import CalendarBody from '../../components/molecules/CalendarBody'
 interface Props {
   classes: Record<'headerTile' | 'headerCard' | 'bodyCard', string>
   now: dayjs.Dayjs
-  handleDayClick: () => void
-  handleTaskClick: () => void
+  tasksList: Array<{
+    day: number
+    tasks: Array<{
+      id: number
+      title: string
+    }>
+  }>
+  handleDayClick: (day: number) => void
+  handleTaskClick: (day: number, taskId: number) => void
 }
 
 const Calendar: React.FC<Props> = props => {
@@ -20,6 +27,7 @@ const Calendar: React.FC<Props> = props => {
       <CalendarBody
         classes={props.classes}
         now={props.now}
+        tasksList={props.tasksList}
         handleDayClick={props.handleDayClick}
         handleTaskClick={props.handleTaskClick}
       ></CalendarBody>
