@@ -25,7 +25,8 @@ interface Props {
 const CalendarBody: React.FC<Props> = props => {
   const topBlank = props.now.day()
   const daysInMonth = props.now.daysInMonth()
-  const bottomBlank = 7 - ((topBlank + daysInMonth) % 7)
+  const bottomBlank =
+    dayjs().day() === 6 ? 0 : 7 - ((topBlank + daysInMonth) % 7) // 土曜日の場合は0
 
   const dayTasks = (day: number) => {
     const dayTasks = _.find(props.tasksList, { day: day })
