@@ -1777,6 +1777,11 @@
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.137.tgz#8a4804937dc6462274ffcc088df8f14fc1b368e2"
   integrity sha512-g4rNK5SRKloO+sUGbuO7aPtwbwzMgjK+bm9BBhLD7jGUiGR7zhwYEhSln/ihgYQBeIJ5j7xjyaYzrWTcu3UotQ==
 
+"@types/node@*":
+  version "12.7.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.2.tgz#c4e63af5e8823ce9cc3f0b34f7b998c2171f0c44"
+  integrity sha512-dyYO+f6ihZEtNPDcWNR1fkoTDf3zAK3lAABDze3mz6POyIercH0lEUawUFXlG8xaQZmm1yEBON/4TsYv/laDYg==
+
 "@types/node@12.7.1":
   version "12.7.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.1.tgz#3b5c3a26393c19b400844ac422bd0f631a94d69d"
@@ -1791,6 +1796,13 @@
   version "15.7.1"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.1.tgz#f1a11e7babb0c3cad68100be381d1e064c68f1f6"
   integrity sha512-CFzn9idOEpHrgdw8JsoTkaDDyRWk1jrzIV8djzcgpq0y9tG4B4lFT+Nxh52DVpDXV+n4+NPNv7M1Dj5uMp6XFg==
+
+"@types/puppeteer@*":
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/@types/puppeteer/-/puppeteer-1.19.1.tgz#942ca62288953a0f5fbbc25c103b5f2ba28b60ab"
+  integrity sha512-ReWZvoEfMiJIA3AG+eM+nCx5GKrU2ANVYY5TC0nbpeiTCtnJbcqnmBbR8TkXMBTvLBYcuTOAELbTcuX73siDNQ==
+  dependencies:
+    "@types/node" "*"
 
 "@types/q@^1.5.1":
   version "1.5.2"
@@ -1832,7 +1844,16 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
 
-"@types/storybook__react@^4.0.2":
+"@types/storybook__addon-storyshots@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@types/storybook__addon-storyshots/-/storybook__addon-storyshots-5.1.1.tgz#f10fab61881bee2eea721949b954f0b95d4c92fc"
+  integrity sha512-Sa0IP7NyHciCPrO/liyvZR4r1ZOVUzMHkmpj7GR+Y6iD0TkQw7ennMEYc28LpQRiLlZVkLkRvdxndq1WxLEuBQ==
+  dependencies:
+    "@types/puppeteer" "*"
+    "@types/react" "*"
+    "@types/storybook__react" "*"
+
+"@types/storybook__react@*", "@types/storybook__react@^4.0.2":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@types/storybook__react/-/storybook__react-4.0.2.tgz#f36fb399574c662e79c1a0cf6e429b6ff730da40"
   integrity sha512-U/+J5qccRdKFryvHkk1a0IeZaSIZLCmTwAQhTSDGeC3SPNIYPus+EtunBqP49r870l8czbfxtjeC3IL9P66ngQ==
