@@ -1,5 +1,4 @@
 import React from 'react'
-import _ from 'lodash'
 
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
@@ -22,9 +21,11 @@ const TaskList: React.FC<Props> = props => {
   return (
     <List disablePadding={true}>
       {props.tasks.length ? (
-        _.map(props.tasks, task => (
-          <ListItem>
-            <ListItemText>・{formattedTask(task)}</ListItemText>
+        props.tasks.map((task, index) => (
+          <ListItem key={'task' + index}>
+            <ListItemText key={'task_text' + index}>
+              ・{formattedTask(task)}
+            </ListItemText>
           </ListItem>
         ))
       ) : (

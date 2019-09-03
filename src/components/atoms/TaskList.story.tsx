@@ -17,7 +17,10 @@ storiesOf(division, module).add('通常タスク', () => (
 
 storiesOf(division, module).add('短縮タスク', () => (
   <TaskList
-    tasks={['タスクタスクタスクタスク', 'タスクタスクタスクタスク']}
+    tasks={[
+      '短縮タスク短縮タスク短縮タスク短縮タスク',
+      '短縮タスク短縮タスク短縮タスク短縮タスク'
+    ]}
     short={true}
   ></TaskList>
 ))

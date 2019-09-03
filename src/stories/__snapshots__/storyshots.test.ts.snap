@@ -1,5 +1,100 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots components/atoms/タスク タスク無し 1`] = `
+<ul
+  className="MuiList-root"
+>
+  <li
+    className="MuiListItem-root MuiListItem-gutters"
+    disabled={false}
+  >
+    <div
+      className="MuiListItemText-root"
+    >
+      <span
+        className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+      >
+        タスクがありません。
+      </span>
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots components/atoms/タスク 短縮タスク 1`] = `
+<ul
+  className="MuiList-root"
+>
+  <li
+    className="MuiListItem-root MuiListItem-gutters"
+    disabled={false}
+  >
+    <div
+      className="MuiListItemText-root"
+    >
+      <span
+        className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+      >
+        ・
+        短縮タスク短縮タ……
+      </span>
+    </div>
+  </li>
+  <li
+    className="MuiListItem-root MuiListItem-gutters"
+    disabled={false}
+  >
+    <div
+      className="MuiListItemText-root"
+    >
+      <span
+        className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+      >
+        ・
+        短縮タスク短縮タ……
+      </span>
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots components/atoms/タスク 通常タスク 1`] = `
+<ul
+  className="MuiList-root"
+>
+  <li
+    className="MuiListItem-root MuiListItem-gutters"
+    disabled={false}
+  >
+    <div
+      className="MuiListItemText-root"
+    >
+      <span
+        className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+      >
+        ・
+        タスクタスクタスクタスク
+      </span>
+    </div>
+  </li>
+  <li
+    className="MuiListItem-root MuiListItem-gutters"
+    disabled={false}
+  >
+    <div
+      className="MuiListItemText-root"
+    >
+      <span
+        className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+      >
+        ・
+        タスクタスクタスクタスク
+      </span>
+    </div>
+  </li>
+</ul>
+`;
+
 exports[`Storyshots material-ui/sample/button simple blue button 1`] = `
 <button
   className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
