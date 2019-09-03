@@ -1,5 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots components/atoms 日付 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1"
+>
+  10月10日
+</p>
+`;
+
 exports[`Storyshots components/atoms/タスク タスク無し 1`] = `
 <ul
   className="MuiList-root"
