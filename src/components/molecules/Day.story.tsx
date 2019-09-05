@@ -8,11 +8,11 @@ import Day from './Day'
 const division = 'components/molecules/日付カード'
 const date = dayjs('2020-11-10')
 
-storiesOf(division, module).add('空欄', () => <Day isEmpty={true}></Day>)
+storiesOf(division, module).add('空欄', () => <Day type="Empty"></Day>)
 
 storiesOf(division, module).add('日付込み', () => (
   <Day
-    isEmpty={false}
+    type="Filled"
     date={date}
     tasks={[]}
     onClickHandler={action('clicked')}
@@ -21,7 +21,7 @@ storiesOf(division, module).add('日付込み', () => (
 
 storiesOf(division, module).add('タスク込み', () => (
   <Day
-    isEmpty={false}
+    type="Filled"
     date={date}
     tasks={[
       '短縮タスク短縮タスク短縮タスク短縮タスク',

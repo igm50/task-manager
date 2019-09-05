@@ -16,25 +16,25 @@ interface Props {
 const Calendar: React.FC<Props> = props => {
   return (
     <Container component="div" fixed>
-      <GridList cellHeight="auto" cols={7}>
-        {_.range(7).map(index => (
-          <GridListTile>
-            <Day isEmpty={true}></Day>
+      <GridList cellHeight="auto" cols={1}>
+        {_.range(1).map(index => (
+          <GridListTile key="before">
+            <Day type="Empty"></Day>
           </GridListTile>
         ))}
-        {_.range(7).map(index => (
-          <GridListTile>
+        {_.range(1).map(index => (
+          <GridListTile key="main">
             <Day
-              isEmpty={false}
+              type="Filled"
               date={props.date}
               tasks={[]}
               onClickHandler={() => {}}
             ></Day>
           </GridListTile>
         ))}
-        {_.range(7).map(index => (
-          <GridListTile>
-            <Day isEmpty={true}></Day>
+        {_.range(1).map(index => (
+          <GridListTile key="after">
+            <Day type="Empty"></Day>
           </GridListTile>
         ))}
       </GridList>

@@ -6,33 +6,48 @@ import CardContent from '@material-ui/core/CardContent'
 
 import Date from '../atoms/Date'
 import TaskList from '../atoms/TaskList'
+import { makeStyles } from '@material-ui/styles'
+
+type Type = 'Header' | 'Empty' | 'Filled'
 
 interface Props {
-  isEmpty: boolean
+  type: Type
   date?: Dayjs
   tasks?: Array<string>
   onClickHandler?: () => void
 }
 
+interface HeaderProps extends Props {
+  type: 'Header'
+}
+
 interface EmptyProps extends Props {
-  isEmpty: true
+  type: 'Empty'
 }
 
 interface FilledProps extends Props {
-  isEmpty: false
+  type: 'Filled'
   date: Dayjs
   tasks?: Array<string>
   onClickHandler?: () => void
 }
 
+const useStyles = makeStyles({
+  root: {
+    background: '#EEEEEE'
+  }
+})
+
 const Day: React.FC<EmptyProps | FilledProps> = props => {
   const tasks = props.tasks || []
   const onClickHandler = props.onClickHandler || (() => {})
 
+  const classes = useStyles()
+
   return (
-    <Card onClick={onClickHandler}>
+    <Card onClick={onClickHandler} className={classes.root}>
       <CardContent>
-        {!props.isEmpty && (
+        {props.type === 'Filled' && (
           <React.Fragment>
             <Date date={props.date}></Date>
             <TaskList tasks={tasks} short={true}></TaskList>

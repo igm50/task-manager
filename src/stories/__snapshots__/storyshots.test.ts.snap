@@ -65,7 +65,7 @@ exports[`Storyshots components/atoms/タスク 通常タスク 1`] = `
 
 exports[`Storyshots components/molecules/日付カード タスク込み 1`] = `
 <div
-  className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
+  className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-221 MuiPaper-rounded"
   onClick={[Function]}
 >
   <div
@@ -96,7 +96,7 @@ exports[`Storyshots components/molecules/日付カード タスク込み 1`] = `
 
 exports[`Storyshots components/molecules/日付カード 日付込み 1`] = `
 <div
-  className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
+  className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-140 MuiPaper-rounded"
   onClick={[Function]}
 >
   <div
@@ -131,12 +131,121 @@ exports[`Storyshots components/molecules/日付カード 日付込み 1`] = `
 
 exports[`Storyshots components/molecules/日付カード 空欄 1`] = `
 <div
-  className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
+  className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-110 MuiPaper-rounded"
   onClick={[Function]}
 >
   <div
     className="MuiCardContent-root"
   />
+</div>
+`;
+
+exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
+>
+  <ul
+    className="MuiGridList-root"
+    style={
+      Object {
+        "margin": -2,
+      }
+    }
+  >
+    <li
+      className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": "auto",
+          "padding": 2,
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        className="MuiGridListTile-tile"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-297 MuiPaper-rounded"
+          onClick={[Function]}
+        >
+          <div
+            className="MuiCardContent-root"
+          />
+        </div>
+      </div>
+    </li>
+    <li
+      className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": "auto",
+          "padding": 2,
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        className="MuiGridListTile-tile"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-297 MuiPaper-rounded"
+          onClick={[Function]}
+        >
+          <div
+            className="MuiCardContent-root"
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1"
+            >
+              10月10日
+            </p>
+            <ul
+              className="MuiList-root"
+            >
+              <li
+                className="MuiListItem-root MuiListItem-gutters"
+                disabled={false}
+              >
+                <div
+                  className="MuiListItemText-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+                  >
+                    タスクがありません。
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": "auto",
+          "padding": 2,
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        className="MuiGridListTile-tile"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-297 MuiPaper-rounded"
+          onClick={[Function]}
+        >
+          <div
+            className="MuiCardContent-root"
+          />
+        </div>
+      </div>
+    </li>
+  </ul>
 </div>
 `;
 
