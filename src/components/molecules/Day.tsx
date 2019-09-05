@@ -21,10 +21,12 @@ interface EmptyProps extends Props {
 interface FilledProps extends Props {
   isEmpty: false
   date: Dayjs
-  tasks: Array<string>
+  tasks?: Array<string>
+  onClickHandler?: () => void
 }
 
 const Day: React.FC<EmptyProps | FilledProps> = props => {
+  const tasks = props.tasks || []
   const onClickHandler = props.onClickHandler || (() => {})
 
   return (
@@ -33,7 +35,7 @@ const Day: React.FC<EmptyProps | FilledProps> = props => {
         {!props.isEmpty && (
           <React.Fragment>
             <Date date={props.date}></Date>
-            <TaskList tasks={props.tasks} short={true}></TaskList>
+            <TaskList tasks={tasks} short={true}></TaskList>
           </React.Fragment>
         )}
       </CardContent>
