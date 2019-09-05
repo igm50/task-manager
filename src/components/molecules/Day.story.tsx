@@ -10,7 +10,16 @@ const date = dayjs('2020-11-10')
 
 storiesOf(division, module).add('空欄', () => <Day isEmpty={true}></Day>)
 
-storiesOf(division, module).add('値込み', () => (
+storiesOf(division, module).add('日付込み', () => (
+  <Day
+    isEmpty={false}
+    date={date}
+    tasks={[]}
+    onClickHandler={action('clicked')}
+  ></Day>
+))
+
+storiesOf(division, module).add('タスク込み', () => (
   <Day
     isEmpty={false}
     date={date}
