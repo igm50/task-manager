@@ -22,11 +22,9 @@ const TaskList: React.FC<Props> = props => {
     <List disablePadding={true}>
       {props.tasks.length ? (
         props.tasks.map((task, index) => (
-          <ListItem key={'task' + index}>
-            <ListItemText key={'task_text' + index}>
-              ・{formattedTask(task)}
-            </ListItemText>
-          </ListItem>
+          <ul key={'task' + index}>
+            <li key={'task_text' + index}>{formattedTask(task)}</li>
+          </ul>
         ))
       ) : (
         <ListItem>
