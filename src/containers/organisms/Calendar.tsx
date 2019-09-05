@@ -1,36 +1,43 @@
 import React from 'react'
-import dayjs from 'dayjs'
+import _ from 'lodash'
+import { Dayjs } from 'dayjs'
 
 import Container from '@material-ui/core/Container'
 
-import CalendarHeader from '../../components/molecules/CalendarHeader'
-import CalendarBody from '../../components/molecules/CalendarBody'
+import GridList from '@material-ui/core/GridList'
+import GridListTile from '@material-ui/core/GridListTile'
+
+import Day from '../../components/molecules/Day'
 
 interface Props {
-  classes: Record<'headerTile' | 'headerCard' | 'bodyCard', string>
-  now: dayjs.Dayjs
-  tasksList: Array<{
-    day: number
-    tasks: Array<{
-      id: number
-      title: string
-    }>
-  }>
-  handleDayClick: (day: number) => void
-  handleTaskClick: (day: number, taskId: number) => void
+  date: Dayjs
 }
 
 const Calendar: React.FC<Props> = props => {
   return (
     <Container component="div" fixed>
-      <CalendarHeader classes={props.classes}></CalendarHeader>
-      <CalendarBody
-        classes={props.classes}
-        now={props.now}
-        tasksList={props.tasksList}
-        handleDayClick={props.handleDayClick}
-        handleTaskClick={props.handleTaskClick}
-      ></CalendarBody>
+      <GridList cellHeight="auto" cols={7}>
+        {_.range(7).map(index => (
+          <GridListTile>
+            <Day isEmpty={true}></Day>
+          </GridListTile>
+        ))}
+        {_.range(7).map(index => (
+          <GridListTile>
+            <Day
+              isEmpty={false}
+              date={props.date}
+              tasks={[]}
+              onClickHandler={() => {}}
+            ></Day>
+          </GridListTile>
+        ))}
+        {_.range(7).map(index => (
+          <GridListTile>
+            <Day isEmpty={true}></Day>
+          </GridListTile>
+        ))}
+      </GridList>
     </Container>
   )
 }
