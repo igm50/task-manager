@@ -8,10 +8,8 @@ import Date from '../atoms/Date'
 import TaskList from '../atoms/TaskList'
 import { makeStyles } from '@material-ui/styles'
 
-type Type = 'Header' | 'Empty' | 'Filled'
-
 interface Props {
-  type: Type
+  type: 'Header' | 'Empty' | 'Filled'
   date?: Dayjs
   tasks?: Array<string>
   onClickHandler?: () => void
