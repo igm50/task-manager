@@ -1,6 +1,6 @@
 import React from 'react'
 import _ from 'lodash'
-import { Dayjs } from 'dayjs'
+import dayjs, { Dayjs } from 'dayjs'
 
 import Container from '@material-ui/core/Container'
 
@@ -14,37 +14,32 @@ interface Props {
 }
 
 const Calendar: React.FC<Props> = props => {
+  const clone = (date: Dayjs) => dayjs(date.format('YYYY-MM-dd'))
+  const firstDate = clone(props.date).date(1)
+  const before = firstDate.day()
   const daysInMonth = props.date.daysInMonth()
+  const lastDay = clone(props.date).date(daysInMonth)
+  const after = 6 - lastDay.day()
 
   return (
     <Container component="div" fixed>
       <GridList cellHeight="auto" cols={7}>
-        {_.range(1).map(index => (
+        {_.range(before).map(index => (
           <GridListTile key="before">
             <Day type="Empty"></Day>
           </GridListTile>
         ))}
         {_.range(daysInMonth).map(index => (
-          <GridListTile key="main">
+          <GridListTile key={index}>
             <Day
               type="Filled"
-              date={props.date}
+              date={clone(props.date).date(index + 1)}
               tasks={[]}
               onClickHandler={() => {}}
             ></Day>
           </GridListTile>
         ))}
-        {_.range(1).map(index => (
-          <GridListTile key="main2">
-            <Day
-              type="Filled"
-              date={props.date}
-              tasks={['タスクタスクタスクタスク']}
-              onClickHandler={() => {}}
-            ></Day>
-          </GridListTile>
-        ))}
-        {_.range(1).map(index => (
+        {_.range(after).map(index => (
           <GridListTile key="after">
             <Day type="Empty"></Day>
           </GridListTile>

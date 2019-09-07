@@ -6,7 +6,7 @@ import { action } from '@storybook/addon-actions'
 import Calendar from './Calendar'
 
 const division = 'containers/organisms/カレンダー'
-const date = dayjs('2020-11-10')
+const date = dayjs('2020-10-10')
 
 storiesOf(division, module).add('サンプル', () => {
   return <Calendar date={date}></Calendar>
