@@ -5,7 +5,7 @@ import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 
 import Date from '../atoms/Date'
-import TaskList from '../atoms/TaskList'
+import TaskCount from '../atoms/TaskCount'
 import { makeStyles } from '@material-ui/styles'
 
 interface Props {
@@ -32,24 +32,23 @@ interface FilledProps extends Props {
 
 const useStyles = makeStyles({
   root: {
-    background: '#EEEEEE'
+    background: '#EEEEEE',
+    height: '80px',
+    margin: '5px'
   }
 })
 
-const Day: React.FC<EmptyProps | FilledProps> = props => {
+const Day: React.FC<HeaderProps | EmptyProps | FilledProps> = props => {
   const tasks = props.tasks || []
   const onClickHandler = props.onClickHandler || (() => {})
-
   const classes = useStyles()
 
   return (
     <Card onClick={onClickHandler} className={classes.root}>
       <CardContent>
-        {props.type === 'Filled' && (
-          <React.Fragment>
-            <Date date={props.date}></Date>
-            <TaskList tasks={tasks} short={true}></TaskList>
-          </React.Fragment>
+        {props.type === 'Filled' && <Date date={props.date}></Date>}
+        {tasks.length !== 0 && (
+          <TaskCount count={props.tasks!.length}></TaskCount>
         )}
       </CardContent>
     </Card>

@@ -14,20 +14,32 @@ interface Props {
 }
 
 const Calendar: React.FC<Props> = props => {
+  const daysInMonth = props.date.daysInMonth()
+
   return (
     <Container component="div" fixed>
-      <GridList cellHeight="auto" cols={1}>
+      <GridList cellHeight="auto" cols={7}>
         {_.range(1).map(index => (
           <GridListTile key="before">
             <Day type="Empty"></Day>
           </GridListTile>
         ))}
-        {_.range(1).map(index => (
+        {_.range(daysInMonth).map(index => (
           <GridListTile key="main">
             <Day
               type="Filled"
               date={props.date}
               tasks={[]}
+              onClickHandler={() => {}}
+            ></Day>
+          </GridListTile>
+        ))}
+        {_.range(1).map(index => (
+          <GridListTile key="main2">
+            <Day
+              type="Filled"
+              date={props.date}
+              tasks={['タスクタスクタスクタスク']}
               onClickHandler={() => {}}
             ></Day>
           </GridListTile>
