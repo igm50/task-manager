@@ -10,7 +10,7 @@ interface Props {
 const Date: React.FC<Props> = props => {
   return (
     <Typography>
-      {props.date.month() + '月' + props.date.date() + '日'}
+      {props.date.month() + 1 + '月' + props.date.date() + '日'}
     </Typography>
   )
 }

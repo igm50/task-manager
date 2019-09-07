@@ -6,7 +6,7 @@ import { action } from '@storybook/addon-actions'
 import Day from './Day'
 
 const division = 'components/molecules/日付カード'
-const date = dayjs('2020-11-10')
+const date = dayjs('2020-10-10')
 
 storiesOf(division, module).add('空欄', () => <Day type="Empty"></Day>)
 
