@@ -1,9 +1,9 @@
 import React from 'react'
-import dayjs from 'dayjs'
+import dayjs, { Dayjs } from 'dayjs'
 import { storiesOf } from '@storybook/react'
 import { withKnobs, object } from '@storybook/addon-knobs'
 
-import Calendar from './Calendar'
+import Calendar, { CalendarContext } from './Calendar'
 
 const division = 'containers/organisms/カレンダー'
 
@@ -15,9 +15,13 @@ stories.add('サンプル', () => {
   const dummyDayTaskList = [{ day: 5, tasks: ['タスクタスクタスクタスク'] }]
 
   return (
-    <Calendar
-      date={object('日付', defaultDate)}
-      dayTaskList={object('日付タスクリスト', dummyDayTaskList)}
-    ></Calendar>
+    <CalendarContext.Provider
+      value={{
+        date: object('日付', defaultDate),
+        dayTaskList: object('日付タスクリスト', dummyDayTaskList)
+      }}
+    >
+      <Calendar></Calendar>
+    </CalendarContext.Provider>
   )
 })

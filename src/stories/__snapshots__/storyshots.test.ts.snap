@@ -359,6 +359,12 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
             >
               10月5日
             </p>
+            <p
+              className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
+            >
+              1
+              件
+            </p>
           </div>
         </div>
       </div>

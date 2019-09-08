@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import _ from 'lodash'
 import dayjs, { Dayjs } from 'dayjs'
 
@@ -19,6 +19,12 @@ interface Props {
   dayTaskList: Array<DayTasks>
 }
 
+const defaultContext: Props = {
+  date: dayjs(),
+  dayTaskList: []
+}
+export const CalendarContext = React.createContext<Props>(defaultContext)
+
 const findTasks = (
   dayTaskList: Array<DayTasks>,
   day: number
@@ -27,10 +33,12 @@ const findTasks = (
   return dayTasks ? dayTasks.tasks : []
 }
 
-const Calendar: React.FC<Props> = props => {
-  const before = props.date.date(1).day()
-  const daysInMonth = props.date.daysInMonth()
-  const after = 6 - props.date.date(daysInMonth).day()
+const Calendar: React.FC = () => {
+  const context = useContext(CalendarContext)
+
+  const before = context.date.date(1).day()
+  const daysInMonth = context.date.daysInMonth()
+  const after = 6 - context.date.date(daysInMonth).day()
 
   return (
     <Container component="div" fixed>
@@ -44,8 +52,8 @@ const Calendar: React.FC<Props> = props => {
           <GridListTile key={index}>
             <Day
               type="Filled"
-              date={props.date.date(index + 1)}
-              tasks={findTasks(props.dayTaskList, index + 1)}
+              date={context.date.date(index + 1)}
+              tasks={findTasks(context.dayTaskList, index + 1)}
               onClickHandler={() => {}}
             ></Day>
           </GridListTile>
