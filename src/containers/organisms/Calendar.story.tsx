@@ -9,5 +9,7 @@ const division = 'containers/organisms/カレンダー'
 const date = dayjs('2020-10-10')
 
 storiesOf(division, module).add('サンプル', () => {
-  return <Calendar date={date}></Calendar>
+  const dummyDayTaskList = [{ day: 5, tasks: ['タスクタスクタスクタスク'] }]
+
+  return <Calendar date={date} dayTaskList={dummyDayTaskList}></Calendar>
 })

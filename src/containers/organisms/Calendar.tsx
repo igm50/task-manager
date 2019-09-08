@@ -9,23 +9,34 @@ import GridListTile from '@material-ui/core/GridListTile'
 
 import Day from '../../components/molecules/Day'
 
+interface DayTasks {
+  day: number
+  tasks: Array<string>
+}
+
 interface Props {
   date: Dayjs
+  dayTaskList: Array<DayTasks>
+}
+
+const findTasks = (
+  dayTaskList: Array<DayTasks>,
+  day: number
+): Array<string> => {
+  const dayTasks = _.find(dayTaskList, { day: day })
+  return dayTasks ? dayTasks.tasks : []
 }
 
 const Calendar: React.FC<Props> = props => {
-  const clone = (date: Dayjs) => dayjs(date.format('YYYY-MM-dd'))
-  const firstDate = clone(props.date).date(1)
-  const before = firstDate.day()
+  const before = props.date.date(1).day()
   const daysInMonth = props.date.daysInMonth()
-  const lastDay = clone(props.date).date(daysInMonth)
-  const after = 6 - lastDay.day()
+  const after = 6 - props.date.date(daysInMonth).day()
 
   return (
     <Container component="div" fixed>
       <GridList cellHeight="auto" cols={7}>
         {_.range(before).map(index => (
-          <GridListTile key="before">
+          <GridListTile key={'before' + index}>
             <Day type="Empty"></Day>
           </GridListTile>
         ))}
@@ -33,14 +44,14 @@ const Calendar: React.FC<Props> = props => {
           <GridListTile key={index}>
             <Day
               type="Filled"
-              date={clone(props.date).date(index + 1)}
-              tasks={[]}
+              date={props.date.date(index + 1)}
+              tasks={findTasks(props.dayTaskList, index + 1)}
               onClickHandler={() => {}}
             ></Day>
           </GridListTile>
         ))}
         {_.range(after).map(index => (
-          <GridListTile key="after">
+          <GridListTile key={'after' + index}>
             <Day type="Empty"></Day>
           </GridListTile>
         ))}
