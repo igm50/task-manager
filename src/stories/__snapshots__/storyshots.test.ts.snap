@@ -1127,6 +1127,1027 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
 </div>
 `;
 
+exports[`Storyshots containers/template/コンテンツテンプレート カレンダー 1`] = `
+<main
+  className="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
+>
+  <div
+    className="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
+  >
+    <ul
+      className="MuiGridList-root"
+      style={
+        Object {
+          "margin": -2,
+        }
+      }
+    >
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            />
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            />
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            />
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            />
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月1日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月2日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月3日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月4日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月5日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月6日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月7日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月8日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月9日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月10日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月11日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月12日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月13日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月14日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月15日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月16日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月17日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月18日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月19日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月20日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月21日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月22日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月23日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月24日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月25日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月26日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月27日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月28日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月29日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月30日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root"
+        style={
+          Object {
+            "height": "auto",
+            "padding": 2,
+            "width": "14.285714285714286%",
+          }
+        }
+      >
+        <div
+          className="MuiGridListTile-tile"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-366 MuiPaper-rounded"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1"
+              >
+                10月31日
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</main>
+`;
+
+exports[`Storyshots containers/template/コンテンツテンプレート 空欄 1`] = `
+<main
+  className="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
+>
+  <div>
+    サンプル
+  </div>
+</main>
+`;
+
 exports[`Storyshots material-ui/sample/button simple blue button 1`] = `
 <button
   className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
