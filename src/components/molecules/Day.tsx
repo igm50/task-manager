@@ -3,6 +3,7 @@ import { Dayjs } from 'dayjs'
 
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
+import CardHeader from '@material-ui/core/CardHeader'
 
 import Date from '../atoms/Date'
 import TaskCount from '../atoms/TaskCount'
@@ -35,6 +36,9 @@ const useStyles = makeStyles({
     background: '#EEEEEE',
     height: '80px',
     margin: '5px'
+  },
+  header: {
+    textAlign: 'center'
   }
 })
 
@@ -45,6 +49,12 @@ const Day: React.FC<HeaderProps | EmptyProps | FilledProps> = props => {
 
   return (
     <Card onClick={onClickHandler} className={classes.root}>
+      {props.type === 'Header' && (
+        <CardHeader
+          title={props.children}
+          className={classes.header}
+        ></CardHeader>
+      )}
       <CardContent>
         {props.type === 'Filled' && <Date date={props.date}></Date>}
         {tasks.length !== 0 && (

@@ -8,6 +8,8 @@ import Day from './Day'
 const division = 'components/molecules/日付カード'
 const date = dayjs('2020-10-10')
 
+storiesOf(division, module).add('ヘッダー', () => <Day type="Header">月</Day>)
+
 storiesOf(division, module).add('空欄', () => <Day type="Empty"></Day>)
 
 storiesOf(division, module).add('日付込み', () => (

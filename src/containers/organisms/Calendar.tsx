@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import _ from 'lodash'
+import 'dayjs/locale/ja'
 import dayjs, { Dayjs } from 'dayjs'
 
 import Container from '@material-ui/core/Container'
@@ -35,6 +36,7 @@ const findTasks = (
 
 const Calendar: React.FC = () => {
   const context = useContext(CalendarContext)
+  dayjs.locale('ja')
 
   const before = context.date.date(1).day()
   const daysInMonth = context.date.daysInMonth()
@@ -43,6 +45,15 @@ const Calendar: React.FC = () => {
   return (
     <Container component="div" fixed>
       <GridList cellHeight="auto" cols={7}>
+        {_.range(7).map(index => (
+          <GridListTile key={'before' + index}>
+            <Day type="Header">
+              {dayjs()
+                .day(index)
+                .format('ddd')}
+            </Day>
+          </GridListTile>
+        ))}
         {_.range(before).map(index => (
           <GridListTile key={'before' + index}>
             <Day type="Empty"></Day>
