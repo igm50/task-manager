@@ -7,8 +7,12 @@ import Container from '@material-ui/core/Container'
 
 import GridList from '@material-ui/core/GridList'
 import GridListTile from '@material-ui/core/GridListTile'
+import Typography from '@material-ui/core/Typography'
 
 import Day from '../../components/molecules/Day'
+import { makeStyles } from '@material-ui/core'
+
+dayjs.locale('ja')
 
 interface DayTasks {
   day: number
@@ -34,9 +38,15 @@ const findTasks = (
   return dayTasks ? dayTasks.tasks : []
 }
 
+const useStyles = makeStyles({
+  root: {
+    paddingTop: '10px'
+  }
+})
+
 const Calendar: React.FC = () => {
   const context = useContext(CalendarContext)
-  dayjs.locale('ja')
+  const classes = useStyles()
 
   const before = context.date.date(1).day()
   const daysInMonth = context.date.daysInMonth()
@@ -44,6 +54,14 @@ const Calendar: React.FC = () => {
 
   return (
     <Container component="div" fixed>
+      <Typography
+        align="center"
+        color="initial"
+        variant="h3"
+        className={classes.root}
+      >
+        {context.date.format('MMMM')}
+      </Typography>
       <GridList cellHeight="auto" cols={7}>
         {_.range(7).map(index => (
           <GridListTile key={'before' + index}>

@@ -4,6 +4,7 @@ import Dialog from '@material-ui/core/Dialog'
 import DialogTitle from '@material-ui/core/DialogTitle'
 import DialogContent from '@material-ui/core/DialogContent'
 import Container from '@material-ui/core/Container'
+import { makeStyles } from '@material-ui/styles'
 
 interface DialogProps {
   handleClose: () => void
@@ -32,12 +33,20 @@ interface Props {
   MainContents: React.FC
 }
 
+const useStyles = makeStyles({
+  root: {
+    background: '#afc0d1'
+  }
+})
+
 const ContentsOnly: React.FC<Props> = props => {
+  const classes = useStyles()
+
   const [dayOpen, setDayOpen] = useState(false)
   const [taskOpen, setTaskOpen] = useState(false)
 
   return (
-    <Container component="main" fixed>
+    <Container component="main" fixed className={classes.root}>
       <props.MainContents></props.MainContents>
       <DayDialog
         handleClose={() => setDayOpen(false)}

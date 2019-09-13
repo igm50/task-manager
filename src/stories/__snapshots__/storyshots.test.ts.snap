@@ -65,26 +65,26 @@ exports[`Storyshots components/atoms/タスク件数 サンプル 1`] = `
 `;
 
 exports[`Storyshots components/atoms/日付 サンプル 1`] = `
-<p
-  className="MuiTypography-root MuiTypography-body1"
+<h5
+  className="MuiTypography-root MuiTypography-h5"
 >
-  10月10日
-</p>
+  10
+</h5>
 `;
 
 exports[`Storyshots components/molecules/日付カード タスク込み 1`] = `
 <div
-  className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-279 MuiPaper-rounded"
+  className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-284 MuiPaper-rounded"
   onClick={[Function]}
 >
   <div
     className="MuiCardContent-root"
   >
-    <p
-      className="MuiTypography-root MuiTypography-body1"
+    <h5
+      className="MuiTypography-root MuiTypography-h5"
     >
-      10月10日
-    </p>
+      10
+    </h5>
     <p
       className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
     >
@@ -97,11 +97,11 @@ exports[`Storyshots components/molecules/日付カード タスク込み 1`] = `
 
 exports[`Storyshots components/molecules/日付カード ヘッダー 1`] = `
 <div
-  className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-120 MuiPaper-rounded"
+  className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-120 MuiPaper-rounded"
   onClick={[Function]}
 >
   <div
-    className="MuiCardHeader-root makeStyles-header-121"
+    className="MuiCardHeader-root"
   >
     <div
       className="MuiCardHeader-content"
@@ -121,24 +121,24 @@ exports[`Storyshots components/molecules/日付カード ヘッダー 1`] = `
 
 exports[`Storyshots components/molecules/日付カード 日付込み 1`] = `
 <div
-  className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-218 MuiPaper-rounded"
+  className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-222 MuiPaper-rounded"
   onClick={[Function]}
 >
   <div
     className="MuiCardContent-root"
   >
-    <p
-      className="MuiTypography-root MuiTypography-body1"
+    <h5
+      className="MuiTypography-root MuiTypography-h5"
     >
-      10月10日
-    </p>
+      10
+    </h5>
   </div>
 </div>
 `;
 
 exports[`Storyshots components/molecules/日付カード 空欄 1`] = `
 <div
-  className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-187 MuiPaper-rounded"
+  className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-189 MuiPaper-rounded"
   onClick={[Function]}
 >
   <div
@@ -151,6 +151,11 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
 <div
   className="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
 >
+  <h3
+    className="MuiTypography-root makeStyles-root-344 MuiTypography-h3 MuiTypography-alignCenter"
+  >
+    10月
+  </h3>
   <ul
     className="MuiGridList-root"
     style={
@@ -173,11 +178,11 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-387 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
-            className="MuiCardHeader-root makeStyles-header-353"
+            className="MuiCardHeader-root"
           >
             <div
               className="MuiCardHeader-content"
@@ -209,11 +214,11 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-387 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
-            className="MuiCardHeader-root makeStyles-header-353"
+            className="MuiCardHeader-root"
           >
             <div
               className="MuiCardHeader-content"
@@ -245,11 +250,11 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-387 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
-            className="MuiCardHeader-root makeStyles-header-353"
+            className="MuiCardHeader-root"
           >
             <div
               className="MuiCardHeader-content"
@@ -281,11 +286,11 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-387 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
-            className="MuiCardHeader-root makeStyles-header-353"
+            className="MuiCardHeader-root"
           >
             <div
               className="MuiCardHeader-content"
@@ -317,11 +322,11 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-387 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
-            className="MuiCardHeader-root makeStyles-header-353"
+            className="MuiCardHeader-root"
           >
             <div
               className="MuiCardHeader-content"
@@ -353,11 +358,11 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-387 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
-            className="MuiCardHeader-root makeStyles-header-353"
+            className="MuiCardHeader-root"
           >
             <div
               className="MuiCardHeader-content"
@@ -389,11 +394,11 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-387 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
-            className="MuiCardHeader-root makeStyles-header-353"
+            className="MuiCardHeader-root"
           >
             <div
               className="MuiCardHeader-content"
@@ -425,7 +430,7 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-388 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
@@ -448,7 +453,7 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-388 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
@@ -471,7 +476,7 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-388 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
@@ -494,7 +499,7 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-388 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
@@ -517,17 +522,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月1日
-            </p>
+              1
+            </h5>
           </div>
         </div>
       </div>
@@ -546,17 +551,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月2日
-            </p>
+              2
+            </h5>
           </div>
         </div>
       </div>
@@ -575,17 +580,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月3日
-            </p>
+              3
+            </h5>
           </div>
         </div>
       </div>
@@ -604,17 +609,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月4日
-            </p>
+              4
+            </h5>
           </div>
         </div>
       </div>
@@ -633,17 +638,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月5日
-            </p>
+              5
+            </h5>
             <p
               className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
             >
@@ -668,17 +673,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月6日
-            </p>
+              6
+            </h5>
           </div>
         </div>
       </div>
@@ -697,17 +702,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月7日
-            </p>
+              7
+            </h5>
           </div>
         </div>
       </div>
@@ -726,17 +731,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月8日
-            </p>
+              8
+            </h5>
           </div>
         </div>
       </div>
@@ -755,17 +760,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月9日
-            </p>
+              9
+            </h5>
           </div>
         </div>
       </div>
@@ -784,17 +789,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月10日
-            </p>
+              10
+            </h5>
           </div>
         </div>
       </div>
@@ -813,17 +818,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月11日
-            </p>
+              11
+            </h5>
           </div>
         </div>
       </div>
@@ -842,17 +847,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月12日
-            </p>
+              12
+            </h5>
           </div>
         </div>
       </div>
@@ -871,17 +876,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月13日
-            </p>
+              13
+            </h5>
           </div>
         </div>
       </div>
@@ -900,17 +905,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月14日
-            </p>
+              14
+            </h5>
           </div>
         </div>
       </div>
@@ -929,17 +934,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月15日
-            </p>
+              15
+            </h5>
           </div>
         </div>
       </div>
@@ -958,17 +963,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月16日
-            </p>
+              16
+            </h5>
           </div>
         </div>
       </div>
@@ -987,17 +992,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月17日
-            </p>
+              17
+            </h5>
           </div>
         </div>
       </div>
@@ -1016,17 +1021,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月18日
-            </p>
+              18
+            </h5>
           </div>
         </div>
       </div>
@@ -1045,17 +1050,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月19日
-            </p>
+              19
+            </h5>
           </div>
         </div>
       </div>
@@ -1074,17 +1079,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月20日
-            </p>
+              20
+            </h5>
           </div>
         </div>
       </div>
@@ -1103,17 +1108,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月21日
-            </p>
+              21
+            </h5>
           </div>
         </div>
       </div>
@@ -1132,17 +1137,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月22日
-            </p>
+              22
+            </h5>
           </div>
         </div>
       </div>
@@ -1161,17 +1166,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月23日
-            </p>
+              23
+            </h5>
           </div>
         </div>
       </div>
@@ -1190,17 +1195,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月24日
-            </p>
+              24
+            </h5>
           </div>
         </div>
       </div>
@@ -1219,17 +1224,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月25日
-            </p>
+              25
+            </h5>
           </div>
         </div>
       </div>
@@ -1248,17 +1253,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月26日
-            </p>
+              26
+            </h5>
           </div>
         </div>
       </div>
@@ -1277,17 +1282,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月27日
-            </p>
+              27
+            </h5>
           </div>
         </div>
       </div>
@@ -1306,17 +1311,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月28日
-            </p>
+              28
+            </h5>
           </div>
         </div>
       </div>
@@ -1335,17 +1340,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月29日
-            </p>
+              29
+            </h5>
           </div>
         </div>
       </div>
@@ -1364,17 +1369,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月30日
-            </p>
+              30
+            </h5>
           </div>
         </div>
       </div>
@@ -1393,17 +1398,17 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
         className="MuiGridListTile-tile"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-352 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-389 MuiPaper-rounded"
           onClick={[Function]}
         >
           <div
             className="MuiCardContent-root"
           >
-            <p
-              className="MuiTypography-root MuiTypography-body1"
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
             >
-              10月31日
-            </p>
+              31
+            </h5>
           </div>
         </div>
       </div>
@@ -1414,11 +1419,16 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
 
 exports[`Storyshots containers/template/コンテンツテンプレート カレンダー 1`] = `
 <main
-  className="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
+  className="MuiContainer-root makeStyles-root-448 MuiContainer-fixed MuiContainer-maxWidthLg"
 >
   <div
     className="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
   >
+    <h3
+      className="MuiTypography-root makeStyles-root-456 MuiTypography-h3 MuiTypography-alignCenter"
+    >
+      10月
+    </h3>
     <ul
       className="MuiGridList-root"
       style={
@@ -1441,11 +1451,11 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-492 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
-              className="MuiCardHeader-root makeStyles-header-454"
+              className="MuiCardHeader-root"
             >
               <div
                 className="MuiCardHeader-content"
@@ -1477,11 +1487,11 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-492 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
-              className="MuiCardHeader-root makeStyles-header-454"
+              className="MuiCardHeader-root"
             >
               <div
                 className="MuiCardHeader-content"
@@ -1513,11 +1523,11 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-492 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
-              className="MuiCardHeader-root makeStyles-header-454"
+              className="MuiCardHeader-root"
             >
               <div
                 className="MuiCardHeader-content"
@@ -1549,11 +1559,11 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-492 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
-              className="MuiCardHeader-root makeStyles-header-454"
+              className="MuiCardHeader-root"
             >
               <div
                 className="MuiCardHeader-content"
@@ -1585,11 +1595,11 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-492 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
-              className="MuiCardHeader-root makeStyles-header-454"
+              className="MuiCardHeader-root"
             >
               <div
                 className="MuiCardHeader-content"
@@ -1621,11 +1631,11 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-492 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
-              className="MuiCardHeader-root makeStyles-header-454"
+              className="MuiCardHeader-root"
             >
               <div
                 className="MuiCardHeader-content"
@@ -1657,11 +1667,11 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-492 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
-              className="MuiCardHeader-root makeStyles-header-454"
+              className="MuiCardHeader-root"
             >
               <div
                 className="MuiCardHeader-content"
@@ -1693,7 +1703,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-493 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1716,7 +1726,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-493 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1739,7 +1749,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-493 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1762,7 +1772,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-493 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1785,17 +1795,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月1日
-              </p>
+                1
+              </h5>
             </div>
           </div>
         </div>
@@ -1814,17 +1824,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月2日
-              </p>
+                2
+              </h5>
             </div>
           </div>
         </div>
@@ -1843,17 +1853,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月3日
-              </p>
+                3
+              </h5>
             </div>
           </div>
         </div>
@@ -1872,17 +1882,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月4日
-              </p>
+                4
+              </h5>
             </div>
           </div>
         </div>
@@ -1901,17 +1911,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月5日
-              </p>
+                5
+              </h5>
             </div>
           </div>
         </div>
@@ -1930,17 +1940,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月6日
-              </p>
+                6
+              </h5>
             </div>
           </div>
         </div>
@@ -1959,17 +1969,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月7日
-              </p>
+                7
+              </h5>
             </div>
           </div>
         </div>
@@ -1988,17 +1998,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月8日
-              </p>
+                8
+              </h5>
             </div>
           </div>
         </div>
@@ -2017,17 +2027,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月9日
-              </p>
+                9
+              </h5>
             </div>
           </div>
         </div>
@@ -2046,17 +2056,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月10日
-              </p>
+                10
+              </h5>
             </div>
           </div>
         </div>
@@ -2075,17 +2085,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月11日
-              </p>
+                11
+              </h5>
             </div>
           </div>
         </div>
@@ -2104,17 +2114,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月12日
-              </p>
+                12
+              </h5>
             </div>
           </div>
         </div>
@@ -2133,17 +2143,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月13日
-              </p>
+                13
+              </h5>
             </div>
           </div>
         </div>
@@ -2162,17 +2172,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月14日
-              </p>
+                14
+              </h5>
             </div>
           </div>
         </div>
@@ -2191,17 +2201,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月15日
-              </p>
+                15
+              </h5>
             </div>
           </div>
         </div>
@@ -2220,17 +2230,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月16日
-              </p>
+                16
+              </h5>
             </div>
           </div>
         </div>
@@ -2249,17 +2259,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月17日
-              </p>
+                17
+              </h5>
             </div>
           </div>
         </div>
@@ -2278,17 +2288,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月18日
-              </p>
+                18
+              </h5>
             </div>
           </div>
         </div>
@@ -2307,17 +2317,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月19日
-              </p>
+                19
+              </h5>
             </div>
           </div>
         </div>
@@ -2336,17 +2346,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月20日
-              </p>
+                20
+              </h5>
             </div>
           </div>
         </div>
@@ -2365,17 +2375,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月21日
-              </p>
+                21
+              </h5>
             </div>
           </div>
         </div>
@@ -2394,17 +2404,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月22日
-              </p>
+                22
+              </h5>
             </div>
           </div>
         </div>
@@ -2423,17 +2433,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月23日
-              </p>
+                23
+              </h5>
             </div>
           </div>
         </div>
@@ -2452,17 +2462,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月24日
-              </p>
+                24
+              </h5>
             </div>
           </div>
         </div>
@@ -2481,17 +2491,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月25日
-              </p>
+                25
+              </h5>
             </div>
           </div>
         </div>
@@ -2510,17 +2520,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月26日
-              </p>
+                26
+              </h5>
             </div>
           </div>
         </div>
@@ -2539,17 +2549,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月27日
-              </p>
+                27
+              </h5>
             </div>
           </div>
         </div>
@@ -2568,17 +2578,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月28日
-              </p>
+                28
+              </h5>
             </div>
           </div>
         </div>
@@ -2597,17 +2607,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月29日
-              </p>
+                29
+              </h5>
             </div>
           </div>
         </div>
@@ -2626,17 +2636,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月30日
-              </p>
+                30
+              </h5>
             </div>
           </div>
         </div>
@@ -2655,17 +2665,17 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-root-453 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
               className="MuiCardContent-root"
             >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
+              <h5
+                className="MuiTypography-root MuiTypography-h5"
               >
-                10月31日
-              </p>
+                31
+              </h5>
             </div>
           </div>
         </div>
@@ -2677,7 +2687,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
 
 exports[`Storyshots containers/template/コンテンツテンプレート 空欄 1`] = `
 <main
-  className="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
+  className="MuiContainer-root makeStyles-root-425 MuiContainer-fixed MuiContainer-maxWidthLg"
 >
   <div>
     サンプル
