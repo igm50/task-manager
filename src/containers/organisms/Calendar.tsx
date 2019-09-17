@@ -14,21 +14,23 @@ import { makeStyles } from '@material-ui/core'
 
 dayjs.locale('ja')
 
-interface DayTasks {
+export interface DayTasks {
   day: number
   tasks: Array<string>
 }
 
-interface Props {
+export interface CalendarProps {
   date: Dayjs
   dayTaskList: Array<DayTasks>
 }
 
-const defaultContext: Props = {
+const defaultContext: CalendarProps = {
   date: dayjs(),
   dayTaskList: []
 }
-export const CalendarContext = React.createContext<Props>(defaultContext)
+export const CalendarContext = React.createContext<CalendarProps>(
+  defaultContext
+)
 
 const findTasks = (
   dayTaskList: Array<DayTasks>,
