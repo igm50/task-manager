@@ -1417,15 +1417,69 @@ exports[`Storyshots containers/organisms/カレンダー サンプル 1`] = `
 </div>
 `;
 
+exports[`Storyshots containers/organisms/タスクダイアログ タスクを含む 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-text"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  >
+    ダイアログを開く
+  </span>
+</button>
+`;
+
+exports[`Storyshots containers/organisms/タスクダイアログ タスク無し 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-text"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  >
+    ダイアログを開く
+  </span>
+</button>
+`;
+
 exports[`Storyshots containers/template/コンテンツテンプレート カレンダー 1`] = `
 <main
-  className="MuiContainer-root makeStyles-root-448 MuiContainer-fixed MuiContainer-maxWidthLg"
+  className="MuiContainer-root makeStyles-root-518 MuiContainer-fixed MuiContainer-maxWidthLg"
 >
   <div
     className="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
   >
     <h3
-      className="MuiTypography-root makeStyles-root-456 MuiTypography-h3 MuiTypography-alignCenter"
+      className="MuiTypography-root makeStyles-root-526 MuiTypography-h3 MuiTypography-alignCenter"
     >
       10月
     </h3>
@@ -1451,7 +1505,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-492 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-562 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1487,7 +1541,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-492 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-562 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1523,7 +1577,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-492 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-562 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1559,7 +1613,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-492 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-562 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1595,7 +1649,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-492 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-562 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1631,7 +1685,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-492 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-562 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1667,7 +1721,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-492 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-header-562 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1703,7 +1757,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-493 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-563 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1726,7 +1780,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-493 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-563 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1749,7 +1803,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-493 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-563 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1772,7 +1826,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-493 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-empty-563 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1795,7 +1849,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1824,7 +1878,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1853,7 +1907,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1882,7 +1936,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1911,7 +1965,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1940,7 +1994,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1969,7 +2023,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -1998,7 +2052,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2027,7 +2081,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2056,7 +2110,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2085,7 +2139,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2114,7 +2168,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2143,7 +2197,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2172,7 +2226,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2201,7 +2255,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2230,7 +2284,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2259,7 +2313,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2288,7 +2342,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2317,7 +2371,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2346,7 +2400,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2375,7 +2429,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2404,7 +2458,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2433,7 +2487,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2462,7 +2516,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2491,7 +2545,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2520,7 +2574,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2549,7 +2603,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2578,7 +2632,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2607,7 +2661,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2636,7 +2690,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2665,7 +2719,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
           className="MuiGridListTile-tile"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-494 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root makeStyles-filled-564 MuiPaper-rounded"
             onClick={[Function]}
           >
             <div
@@ -2687,7 +2741,7 @@ exports[`Storyshots containers/template/コンテンツテンプレート カレ
 
 exports[`Storyshots containers/template/コンテンツテンプレート 空欄 1`] = `
 <main
-  className="MuiContainer-root makeStyles-root-425 MuiContainer-fixed MuiContainer-maxWidthLg"
+  className="MuiContainer-root makeStyles-root-495 MuiContainer-fixed MuiContainer-maxWidthLg"
 >
   <div>
     サンプル
