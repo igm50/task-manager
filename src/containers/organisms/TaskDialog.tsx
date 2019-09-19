@@ -16,7 +16,8 @@ interface Props {
   date: Dayjs
   tasks: Array<string>
   handleClose: () => void
-  clickEventHandler: (value: string) => void
+  registerTask: (value: string) => void
+  deleteTask: (index: number) => void
   open: boolean
 }
 
@@ -24,7 +25,8 @@ export const TaskDialogContext = React.createContext<Props>({
   date: dayjs(),
   tasks: [],
   handleClose: () => {},
-  clickEventHandler: (value: string) => {},
+  registerTask: (value: string) => {},
+  deleteTask: (index: number) => {},
   open: false
 })
 
@@ -32,19 +34,21 @@ const TaskDialog: React.FC = () => {
   const context = useContext(TaskDialogContext)
 
   const [value, setValue] = useState('')
-  const onClickEvent = () => context.clickEventHandler(value)
 
   return (
     <Dialog onClose={context.handleClose} open={context.open}>
       <DialogTitle>{context.date.format('MMMMD')}日のタスク一覧</DialogTitle>
       <DialogContent>
-        <TaskList tasks={context.tasks}></TaskList>
+        <TaskList
+          tasks={context.tasks}
+          deleteTask={context.deleteTask}
+        ></TaskList>
         <TextField
           label="新規タスク"
           value={value}
           onChange={event => setValue(event.target.value)}
         ></TextField>
-        <Button onClick={onClickEvent}>実行</Button>
+        <Button onClick={() => context.registerTask(value)}>登録</Button>
       </DialogContent>
     </Dialog>
   )

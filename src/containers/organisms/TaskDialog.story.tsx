@@ -9,7 +9,8 @@ import TaskDialog, { TaskDialogContext } from './TaskDialog'
 import { useState } from '@storybook/addons'
 
 const division = 'containers/organisms/タスクダイアログ'
-const clickEventHandler = (value: string) => action(value)()
+const registerTask = (value: string) => action(value)()
+const deleteTask = (index: number) => action(index.toString())()
 
 storiesOf(division, module).add('タスク無し', () => {
   const date = dayjs('2020-10-10')
@@ -21,7 +22,8 @@ storiesOf(division, module).add('タスク無し', () => {
         date: date,
         tasks: [],
         handleClose: () => setOpen(false),
-        clickEventHandler: clickEventHandler,
+        registerTask: registerTask,
+        deleteTask: deleteTask,
         open: open
       }}
     >
@@ -41,7 +43,8 @@ storiesOf(division, module).add('タスクを含む', () => {
         date: date,
         tasks: ['タスクタスクタスクタスク', 'タスクタスクタスクタスク'],
         handleClose: () => setOpen(false),
-        clickEventHandler: clickEventHandler,
+        registerTask: registerTask,
+        deleteTask: deleteTask,
         open: open
       }}
     >
